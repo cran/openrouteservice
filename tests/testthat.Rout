@@ -1,0 +1,33 @@
+
+R version 4.4.0 (2024-04-24) -- "Puppy Cup"
+Copyright (C) 2024 The R Foundation for Statistical Computing
+Platform: aarch64-apple-darwin20
+
+R jest oprogramowaniem darmowym i dostarczany jest BEZ JAKIEJKOLWIEK GWARANCJI.
+Możesz go rozpowszechniać pod pewnymi warunkami.
+Wpisz 'license()' lub 'licence()' aby uzyskać szczegóły dystrybucji.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Wpisz 'demo()' aby zobaczyć demo, 'help()' aby uzyskać pomoc on-line, lub
+'help.start()' aby uzyskać pomoc w przeglądarce HTML.
+Wpisz 'q()' aby wyjść z R.
+
+> library(testthat)
+> library(openrouteservice)
+> 
+> test_check("openrouteservice")
+[ FAIL 0 | WARN 0 | SKIP 2 | PASS 24 ]
+
+══ Skipped tests (2) ═══════════════════════════════════════════════════════════
+• On CRAN (2): 'test-api_key.R:21:3', 'test-api_key.R:27:3'
+
+[ FAIL 0 | WARN 0 | SKIP 2 | PASS 24 ]
+> 
+> proc.time()
+użytkownik     system   upłynęło 
+     0.565      0.115      3.468 

@@ -10,6 +10,9 @@ knitr::opts_chunk$set(purl = NOT_CRAN, eval = NOT_CRAN,
 ## create alias
 doc <- openrouteservice:::doc_link
 
+## ----cran, eval=FALSE-----------------------------------------------------------------------------
+#  install.packages("openrouteservice")
+
 ## ----installation, eval=FALSE---------------------------------------------------------------------
 #  # install.packages("pak")
 #  pak::pak("GIScience/openrouteservice-r")
