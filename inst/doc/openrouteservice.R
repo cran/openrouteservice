@@ -11,16 +11,16 @@ knitr::opts_chunk$set(purl = NOT_CRAN, eval = NOT_CRAN,
 doc <- openrouteservice:::doc_link
 
 ## ----cran, eval=FALSE-----------------------------------------------------------------------------
-#  install.packages("openrouteservice")
+# install.packages("openrouteservice")
 
 ## ----installation, eval=FALSE---------------------------------------------------------------------
-#  # install.packages("pak")
-#  pak::pak("GIScience/openrouteservice-r")
+# # install.packages("pak")
+# pak::pak("GIScience/openrouteservice-r")
 
 ## ----api_key, eval=FALSE--------------------------------------------------------------------------
-#  library(openrouteservice)
-#  
-#  ors_api_key("<your-api-key>")
+# library(openrouteservice)
+# 
+# ors_api_key("<your-api-key>")
 
 ## ----directions-----------------------------------------------------------------------------------
 library(openrouteservice)
